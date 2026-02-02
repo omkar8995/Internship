@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f6ff;
+}
+
+.btn-box {
+    display: flex;
+    gap: 40px;
+}
+
+button {
+    padding: 20px 60px; 
+    font-size: 24px;    
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+button:hover {
+    transform: scale(1.2);
+    background: linear-gradient(135deg, #ec008c, #fc6767);
+}
